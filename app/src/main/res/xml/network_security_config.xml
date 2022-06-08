@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <domain-config cleartextTrafficPermitted="false"
+        tools:ignore="NetworkSecurityConfig">
+        <domain includeSubdomains="true">api.github.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">uyPYgclc5Jt69vKu92vci6etcBDY8UNTyrHQZJpVoZY=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
